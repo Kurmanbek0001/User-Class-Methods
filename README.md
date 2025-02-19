@@ -1,9 +1,12 @@
-User Creation
-User-Class-Methods
+User Creation: example user
+user = User(101010, "Kurmanbek", "Abduraimov", "misterkuma0@gmail.com", "100705", "2005-07-10")
+print(user.get_details())
+print("Age:", user.get_age()
 
+User-Class-Methods
 This Python project implements a User Management System with classes for managing users, generating user IDs, passwords, and emails.
 
-Classes Overview
+
 
 User Class
 Represents a user with attributes like `user_id`, `name`, `surname`, `email`, `password`, and `birthday`. Methods include:
